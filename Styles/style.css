@@ -1,9 +1,9 @@
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Freeman&family=Jacquard+12&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Freeman", sans-serif;
 }
 
 body{
@@ -12,6 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .relogio{
@@ -44,5 +45,13 @@ body{
 }
 
 .relogio span.tempo{
-    font-size: 10px;
+    font-size: 15px;
+    text-shadow: #ffffff;
+}
+
+.texto{
+    align-items: flex;
+    color: rgb(231, 229, 229);
+    font-size: 30px;
+    justify-content: center;
 }
