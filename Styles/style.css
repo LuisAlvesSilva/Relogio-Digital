@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
     font-family: "Freeman", sans-serif;
+    cursor: crosshair;
 }
+
 
 body{
     height: 100vh;
@@ -13,6 +15,45 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.menu div{
+    align-items: top;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.calendario{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 150px;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: 0px 8px 10px rgb(5, 5, 5, .5);
+}
+
+.calendario div{
+    height: 100px;
+    width:  120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background:  rgb(5, 5, 5, .9);
+    letter-spacing: 5px;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+.calendario span{
+    font-weight: bolder;
+}
+
+.calendario span.tempo{
+    font-size: 10px;
+    text-shadow: #ffffff;
 }
 
 .relogio{
